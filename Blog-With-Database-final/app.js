@@ -19,6 +19,7 @@ app.use(express.static("public"));
 // mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser: true});
 mongoose.connect("mongodb+srv://Sayantan:sayantan@cluster0.k2rwk5r.mongodb.net/blogDB", {useNewUrlParser: true});
 
+
 const postSchema = {
   title: String,
   content: String
